@@ -1,6 +1,6 @@
 import Link from 'next/link';
 import { AiOutlineHome, AiOutlineUser, AiOutlinePhone } from 'react-icons/ai';
-import {Menu,X} from 'lucide-react';
+import {Menu} from 'lucide-react';
 
 import {
   Sheet,
@@ -41,7 +41,7 @@ export default function Header() {
           <SheetTitle className='font-bold'>Portfolio</SheetTitle>
         </SheetHeader>
         <SheetDescription>
-          Make changes to your profile here. Click save when you're done.
+          <p className="text-gray-600">Welcome to my portfolio! Explore my work and get to know me.</p>
           <Link href="/" className="flex items-center text-gray-700 hover:text-yellow-600">
             <AiOutlineHome className="mr-1" size={24}/> Home
           </Link>
